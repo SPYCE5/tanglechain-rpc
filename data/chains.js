@@ -2,7 +2,7 @@ export const chains = [
   {
     name: "Shimmer EVM Testnet",
     chain: "SMR",
-    icon: "shimmer",
+    icon: "/icons/shimmer.svg",
     rpc: ["https://json-rpc.evm.testnet.shimmer.network"],
     features: [],
     faucets: [],
