@@ -8,7 +8,9 @@ export default async function handler(req, res) {
   const { origin } = absoluteUrl(req);
   const chainsInjectPaths = chains.map((chain) => ({
     ...chain,
-    icon: `${origin}${chain.icon}`,
+    icon: chain.icon.startsWith("/icons")
+      ? `${origin}${chain.icon}`
+      : `${origin}/icons/unknown.png`,
   }));
 
   if (req.method === "GET") {
