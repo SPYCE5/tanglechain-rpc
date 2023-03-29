@@ -1,11 +1,11 @@
 export const chains = [
   {
-    name: "Shimmer EVM Testnet",
+    name: "ShimmerEVM Testnet",
     chain: "SMR",
     icon: "/icons/shimmer.svg",
-    rpc: ["https://shimmer-rpc-endpoint-will-be-published-here"],
+    rpc: ["https://json-rpc.evm.testnet.shimmer.network/"],
     features: [],
-    faucets: [],
+    faucets: ["https://evm-faucet.testnet.shimmer.network/"],
     nativeCurrency: {
       name: "Shimmer",
       symbol: "SMR",
@@ -13,13 +13,13 @@ export const chains = [
     },
     infoURL: "https://shimmer.network/",
     shortName: "Shimmer",
-    chainId: 1080,
-    networkId: 1080,
+    chainId: 1071,
+    networkId: 1071,
     slip44: 4219,
     explorers: [
       {
         name: "Explorer",
-        url: "https://shimmer-explorer-will-be-published-here",
+        url: "https://explorer.evm.testnet.shimmer.network/",
         standard: "EIP3091",
       },
     ],
