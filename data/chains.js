@@ -5,7 +5,7 @@ export const chains = [
     icon: "/icons/shimmer.svg",
     rpc: ["https://json-rpc.evm.testnet.shimmer.network/"],
     features: [],
-    faucets: ["https://evm-faucet.testnet.shimmer.network/"],
+    faucets: ["https://evm-toolkit.evm.testnet.shimmer.network/", "https://evm-faucet.testnet.shimmer.network/"],
     nativeCurrency: {
       name: "Shimmer",
       symbol: "SMR",
