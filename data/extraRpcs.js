@@ -43,6 +43,8 @@ const privacyStatement = {
     "Only strictly functional data is automatically collected by the RPC. None of this data is directly exported or used for commercial purposes.",
   onfinality:
     "When you access and use our website or related services we may automatically collect information about your device and usage of our website, products and services, including your operating system, browser type, time spent on certain pages of the website/pages visited/links clicked/language preferences. https://onfinality.io/privacy",
+  iota:
+    "When you visit any of our websites or use any features or resources available on or through our websites. When you visit our website, your device and browser may automatically disclose certain information (such as device type, operating system, browser type, browser settings, IP address, language settings, dates and times of connecting to a website and other technical communications information), some of which may constitute Personal Data; https://www.iota.org/privacy-policy"
 };
 
 
@@ -60,4 +62,13 @@ export const extraRpcs = {
   //     },
   //   ],
   // },
+  1071: {
+    rpcs: [
+      {
+        url: "https://json-rpc.evm.testnet.shimmer.network/",
+        tracking: "none",
+        trackingDetails: privacyStatement.iota,
+      }
+    ],
+  },
 };
