@@ -9,12 +9,12 @@ export const chains = [
     nativeCurrency: {
       name: "Shimmer",
       symbol: "SMR",
-      decimals: 18,
+      decimals: 6,
     },
     infoURL: "https://shimmer.network/",
     shortName: "Shimmer",
-    chainId: 1071,
-    networkId: 1071,
+    chainId: 1072,
+    networkId: 1072,
     slip44: 4219,
     explorers: [
       {
