@@ -13,7 +13,7 @@ export const chains = [
     },
     infoURL: "https://shimmer.network/",
     shortName: "Shimmer",
-    chainId: 1072,
+    chainId: 1073,
     networkId: 1072,
     slip44: 4219,
     explorers: [
