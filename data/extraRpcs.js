@@ -68,6 +68,11 @@ export const extraRpcs = {
         url: "https://json-rpc.evm.testnet.shimmer.network/",
         tracking: "none",
         trackingDetails: privacyStatement.iota,
+      },
+      {
+        url: "https://blockbytes.node.spyce5.com/evm",
+        tracking: "none", // Assuming similar tracking details, adjust if necessary
+        trackingDetails: privacyStatement.iota, // Replace with appropriate privacy statement
       }
     ],
   },
